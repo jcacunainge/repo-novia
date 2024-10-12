@@ -4,13 +4,13 @@ const notification = document.createElement("div");
 
 function growYesButton() {
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
-    yesButton.style.fontSize = (currentSize + 5) + "px";
+    yesButton.style.fontSize = (currentSize + 25) + "px";
 }
 
 // Función para mostrar la notificación al hacer clic en "Sí"
 function showNotification() {
     notification.className = "notification";
-    notification.textContent = "¡Viste que sí te dominaba! 😘";
+    notification.textContent = "¡Viste que sí te dominaba! 😘 te amo muchooo";
     document.body.appendChild(notification);
     notification.style.display = "block";
 }
